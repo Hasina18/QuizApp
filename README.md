@@ -31,7 +31,8 @@ QuizApp is a ReactJS-based web application that allows users to take assessments
 - **State Management**: Managed using React's `useState` and `useEffect` hooks.
 - **CSS**: For styling the application.
 
-"C:\Users\dudek\OneDrive\Pictures\Screenshots\Screenshot (2).png"
+![Screenshot (2)](https://github.com/user-attachments/assets/5362bfb2-2796-46cd-98d8-8980716b95ca)
+
 
 
 
