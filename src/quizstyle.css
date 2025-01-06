@@ -1,0 +1,128 @@
+/* Styling the quiz container */
+.quiz {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Styling the question */
+.quiz h1 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Styling the options list */
+.quiz ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.quiz li {
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #555555;
+    font-size: 1rem;
+}
+
+/* Highlight the selected option */
+.quiz li.selected {
+    background-color: #2196f3; /* Blue background for the selected option */
+    color: #ffffff; /* White text for better contrast */
+    border-color: #2196f3;
+    font-weight: bold;
+}
+
+/* Hover effect for options */
+.quiz li:hover {
+    background-color: #4caf50;
+    color: #ffffff;
+    border-color: #4caf50;
+    transform: scale(1.03);
+}
+
+/* Styling the button */
+.quiz button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect for button */
+.quiz button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* Question count styling */
+.quiz h5 {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #888888;
+    font-weight: bold;
+}
+
+/* Styling the quiz finished container */
+.scorePage {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Styling the header */
+.scorePage h1 {
+    font-size: 2rem;
+    color: #4caf50; /* Green color to indicate success */
+    margin-bottom: 20px;
+}
+
+/* Styling the score text */
+.scorePage h3 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Button to restart quiz or go back */
+.scorePage button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect for button */
+.scorePage button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
